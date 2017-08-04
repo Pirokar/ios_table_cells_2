@@ -14,6 +14,7 @@
 		E7F0ED971F345EC70067905E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E7F0ED951F345EC70067905E /* LaunchScreen.storyboard */; };
 		E7F0EDA21F345EC70067905E /* Table_CellsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E7F0EDA11F345EC70067905E /* Table_CellsTests.swift */; };
 		E7F0EDAD1F345EC70067905E /* Table_CellsUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E7F0EDAC1F345EC70067905E /* Table_CellsUITests.swift */; };
+		E7F0EDBB1F346C5E0067905E /* NameAndColorTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = E7F0EDBA1F346C5E0067905E /* NameAndColorTableViewCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +48,7 @@
 		E7F0EDA81F345EC70067905E /* Table CellsUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Table CellsUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		E7F0EDAC1F345EC70067905E /* Table_CellsUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Table_CellsUITests.swift; sourceTree = "<group>"; };
 		E7F0EDAE1F345EC70067905E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E7F0EDBA1F346C5E0067905E /* NameAndColorTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NameAndColorTableViewCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -103,6 +105,7 @@
 				E7F0ED931F345EC70067905E /* Assets.xcassets */,
 				E7F0ED951F345EC70067905E /* LaunchScreen.storyboard */,
 				E7F0ED981F345EC70067905E /* Info.plist */,
+				E7F0EDBA1F346C5E0067905E /* NameAndColorTableViewCell.swift */,
 			);
 			path = "Table Cells";
 			sourceTree = "<group>";
@@ -259,6 +262,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E7F0EDBB1F346C5E0067905E /* NameAndColorTableViewCell.swift in Sources */,
 				E7F0ED8F1F345EC70067905E /* ViewController.swift in Sources */,
 				E7F0ED8D1F345EC70067905E /* AppDelegate.swift in Sources */,
 			);
