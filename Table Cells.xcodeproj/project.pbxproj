@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		E75E286B1F38593C001A566E /* NameAndColorCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = E75E286A1F38593C001A566E /* NameAndColorCell.xib */; };
 		E7F0ED8D1F345EC70067905E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E7F0ED8C1F345EC70067905E /* AppDelegate.swift */; };
 		E7F0ED8F1F345EC70067905E /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E7F0ED8E1F345EC70067905E /* ViewController.swift */; };
 		E7F0ED921F345EC70067905E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E7F0ED901F345EC70067905E /* Main.storyboard */; };
@@ -35,6 +36,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		E75E286A1F38593C001A566E /* NameAndColorCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = NameAndColorCell.xib; sourceTree = "<group>"; };
 		E7F0ED891F345EC70067905E /* Table Cells.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Table Cells.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		E7F0ED8C1F345EC70067905E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		E7F0ED8E1F345EC70067905E /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -106,6 +108,7 @@
 				E7F0ED951F345EC70067905E /* LaunchScreen.storyboard */,
 				E7F0ED981F345EC70067905E /* Info.plist */,
 				E7F0EDBA1F346C5E0067905E /* NameAndColorTableViewCell.swift */,
+				E75E286A1F38593C001A566E /* NameAndColorCell.xib */,
 			);
 			path = "Table Cells";
 			sourceTree = "<group>";
@@ -235,6 +238,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E75E286B1F38593C001A566E /* NameAndColorCell.xib in Resources */,
 				E7F0ED971F345EC70067905E /* LaunchScreen.storyboard in Resources */,
 				E7F0ED941F345EC70067905E /* Assets.xcassets in Resources */,
 				E7F0ED921F345EC70067905E /* Main.storyboard in Resources */,
@@ -511,6 +515,7 @@
 				E7F0EDB31F345EC70067905E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		E7F0EDB41F345EC70067905E /* Build configuration list for PBXNativeTarget "Table CellsTests" */ = {
 			isa = XCConfigurationList;
@@ -519,6 +524,7 @@
 				E7F0EDB61F345EC70067905E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		E7F0EDB71F345EC70067905E /* Build configuration list for PBXNativeTarget "Table CellsUITests" */ = {
 			isa = XCConfigurationList;
@@ -527,6 +533,7 @@
 				E7F0EDB91F345EC70067905E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
